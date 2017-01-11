@@ -36,6 +36,8 @@ gem 'font-awesome-rails'
 gem 'simple_form'
 # Devise
 gem 'devise'
+# Auto HTML for link recognition
+gem 'auto_html', '~>1.6.4'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'

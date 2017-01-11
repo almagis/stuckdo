@@ -22,10 +22,11 @@
     <%= link_to edit_task_path(task) do %>
       <%= time_ago_in_words(task.created_at) %> ago
     <% end %>
+    
   </div>
   
   <div class="panel-body">
-    <%= task.content %>
+    <%= raw(task.content_html) %>
   </div>
   
   <div class="panel-footer text-center">
